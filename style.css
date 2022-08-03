@@ -78,23 +78,76 @@ ul li {
 @media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
-    width: 700px;
+    width: 580px;
   }
 }
 
 @media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
   .container {
-    width: 500px;
+    width: 380px;
+  }
+
+  .card-red {
+    padding: 10px 10px 5px;
+  }
+
+  .card-picturebuddy{
+    padding: 20px 0px 10px;
+    margin: 2px;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  .card-lightred {
+    line-height: 20px;
+    padding: 15px 18px 20px 18px;
+  }
+
+  #cross {
+    padding: 10px 340px;
+  }
+
+  ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 28px 0px;
   }
 }
 
 @media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 300px;
+    width: 380px;
   }
-  .img-circle {
-    height: 150px;
+
+  .card-red {
+    padding: 10px 10px 5px;
+  }
+
+  .card-picturebuddy{
+    padding: 20px 0px 10px;
+    margin: 2px;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  .card-lightred {
+    line-height: 20px;
+    padding: 15px 18px 20px 18px;
+  }
+
+  #cross {
+    padding: 10px 340px;
+  }
+
+  ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 28px 0px;
   }
 }
